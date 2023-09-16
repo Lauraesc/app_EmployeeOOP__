@@ -1,4 +1,3 @@
-using EmployeeOOP.Exceptions;
 namespace EmployeeOOP.Classes
 {
     public class Date
@@ -49,7 +48,7 @@ namespace EmployeeOOP.Classes
 
         private void IsLeapYearException(bool isLeapYear, int year)
         {
-            if (isLeapYear)
+            if (!isLeapYear)
             {
                 throw new YearException(String.Format("El año {0} no es bisiesto.", year));
             }
