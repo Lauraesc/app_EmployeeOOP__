@@ -23,7 +23,7 @@ namespace EmployeeOOP.Classes
         public override string ToString()
         {
             return $"{base.ToString()}" +
-                $"Salario Devengado: {Salary:C2}\n\t"; // C2 "Currency", two decimals
+                $"Salario Devengado: {Salary:C2}\n\t"; // C2 "Currency "
         }
 
         #endregion
